@@ -70,8 +70,8 @@ public class TextView extends LinearLayout {
         mPaint.setColor(mTextColor);
 
         //  默认给一个背景
-       setBackgroundColor(Color.TRANSPARENT);
-//        setWillNotDraw(true);
+//       setBackgroundColor(Color.TRANSPARENT);
+       setWillNotDraw(true);
     }
 
     private int sp2px(int sp) {
@@ -108,7 +108,7 @@ public class TextView extends LinearLayout {
 
         int height = MeasureSpec.getSize(heightMeasureSpec);
 
-        if(widthMode == MeasureSpec.AT_MOST){
+        if(heightMode == MeasureSpec.AT_MOST){
             // 计算的宽度 与 字体的长度有关  与字体的大小  用画笔来测量
             Rect bounds = new Rect();
             // 获取文本的Rect
@@ -142,6 +142,7 @@ public class TextView extends LinearLayout {
         Paint.FontMetricsInt fontMetrics = mPaint.getFontMetricsInt();
         // top 是一个负值  bottom 是一个正值    top，bttom的值代表是  bottom是baseLine到文字底部的距离（正值）
         // 必须要清楚的，可以自己打印就好
+        Log.e("TAG", "onDraw fontMetrics.bottom= "+fontMetrics.bottom+"  fontMetrics.top="+fontMetrics.top);
         int dy = (fontMetrics.bottom - fontMetrics.top)/2 - fontMetrics.bottom;
         int baseLine = getHeight()/2 + dy;
 

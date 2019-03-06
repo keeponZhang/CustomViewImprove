@@ -16,6 +16,7 @@
         app:darrenText="河南Darren"
         app:darrenTextSize="20sp"
         android:padding="10dp"
+        android:background="#112200"
         app:darrenTextColor="#FF0000"
         android:text="Hello World!" />
 </LinearLayout>

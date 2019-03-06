@@ -91,7 +91,7 @@ public class LetterSideBar extends View {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction()) {
-            // case MotionEvent.ACTION_DOWN:
+            case MotionEvent.ACTION_DOWN:
             case MotionEvent.ACTION_MOVE:
                 // 计算出当前触摸字母  获取当前的位置
                 float currentMoveY = event.getY();

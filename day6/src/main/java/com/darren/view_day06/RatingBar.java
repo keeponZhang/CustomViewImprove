@@ -72,7 +72,7 @@ public class RatingBar extends View {
             int x = i * mStarFocusBitmap.getWidth();
 
             // 结合第二个步骤 触摸的时候mCurrentGrade值是不断变化
-            if(mCurrentGrade>i){// 1  01
+            if(i<mCurrentGrade){// 1  01
                 // 当前分数之前
                 canvas.drawBitmap(mStarFocusBitmap, x, 0, null);
             }else{
@@ -89,7 +89,7 @@ public class RatingBar extends View {
         switch (event.getAction()) {
             // case MotionEvent.ACTION_DOWN: // 按下 尽量减少onDraw()的调用
             case MotionEvent.ACTION_MOVE: // 移动
-            // case MotionEvent.ACTION_UP: // 抬起 尽量减少onDraw()的调用
+            case MotionEvent.ACTION_UP: // 抬起 尽量减少onDraw()的调用
                 float moveX = event.getX();//event.getX()相对于当前控件的位置   event.getRawX()获取幕的x位置
                 // Log.e(TAG, "moveX -> " + moveX +"");
                 // 计算分数
@@ -112,6 +112,6 @@ public class RatingBar extends View {
                 invalidate();// onDraw()  尽量减少onDraw()的调用，目前是不断调用，怎么减少？
                 break;
         }
-        return true;// onTouch 后面看源码（2天,3个小时） false 不消费 第一次 DOWN false DOWN以后的事件是进不来的
+        return false;// onTouch 后面看源码（2天,3个小时） false 不消费 第一次 DOWN false DOWN以后的事件是进不来的
     }
 }

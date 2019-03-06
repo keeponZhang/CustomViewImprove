@@ -13,6 +13,6 @@
         app:borderWidth="20dp"
         app:stepTextColor="@color/colorAccent"
         app:stepTextSize="30sp"
-        android:layout_width="match_parent"
+        android:layout_width="100dp"
         android:layout_height="match_parent" />
 </RelativeLayout>

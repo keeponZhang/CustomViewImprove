@@ -23,7 +23,7 @@
         app:innerBackground="@color/colorPrimary"
         app:outerBackground="@color/colorAccent"
         app:roundWidth="20dp"
-        android:visibility="gone"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

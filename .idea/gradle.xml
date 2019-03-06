@@ -5,23 +5,9 @@
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="D:/Program Files/Android/AndroidStudio/gradle/gradle-2.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/LetterFilterListView" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/day10" />
-            <option value="$PROJECT_DIR$/day11" />
-            <option value="$PROJECT_DIR$/day12" />
-            <option value="$PROJECT_DIR$/day13" />
-            <option value="$PROJECT_DIR$/day14" />
-            <option value="$PROJECT_DIR$/day15" />
-            <option value="$PROJECT_DIR$/day16" />
-            <option value="$PROJECT_DIR$/day17" />
-            <option value="$PROJECT_DIR$/day18" />
-            <option value="$PROJECT_DIR$/day19" />
-            <option value="$PROJECT_DIR$/day2" />
             <option value="$PROJECT_DIR$/day21" />
             <option value="$PROJECT_DIR$/day22" />
             <option value="$PROJECT_DIR$/day23" />
@@ -31,15 +17,7 @@
             <option value="$PROJECT_DIR$/day27" />
             <option value="$PROJECT_DIR$/day28" />
             <option value="$PROJECT_DIR$/day29" />
-            <option value="$PROJECT_DIR$/day3" />
             <option value="$PROJECT_DIR$/day30" />
-            <option value="$PROJECT_DIR$/day4" />
-            <option value="$PROJECT_DIR$/day5" />
-            <option value="$PROJECT_DIR$/day6" />
-            <option value="$PROJECT_DIR$/day7" />
-            <option value="$PROJECT_DIR$/day8" />
-            <option value="$PROJECT_DIR$/day9" />
-            <option value="$PROJECT_DIR$/library" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

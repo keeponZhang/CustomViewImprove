@@ -107,12 +107,12 @@ public class QQStepView extends View {
         ,getWidth()-mBorderWidth/2,getHeight()-mBorderWidth/2);
         // 研究研究
 
-        canvas.drawArc(rectF,135,270,false,mOutPaint);
+        canvas.drawArc(rectF,90,270,false,mOutPaint);
 
         if(mStepMax == 0)return;
         // 6.2 画内圆弧  怎么画肯定不能写死  百分比  是使用者设置的从外面传
         float sweepAngle = (float)mCurrentStep/mStepMax;
-        canvas.drawArc(rectF,135,sweepAngle*270,false,mInnerPaint);
+        canvas.drawArc(rectF,90,sweepAngle*270,false,mInnerPaint);
 
         // 6.3 画文字
         String stepText = mCurrentStep+"";
