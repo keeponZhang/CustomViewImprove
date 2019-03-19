@@ -8,16 +8,22 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/day21" />
-            <option value="$PROJECT_DIR$/day22" />
-            <option value="$PROJECT_DIR$/day23" />
-            <option value="$PROJECT_DIR$/day24" />
-            <option value="$PROJECT_DIR$/day25" />
-            <option value="$PROJECT_DIR$/day26" />
-            <option value="$PROJECT_DIR$/day27" />
-            <option value="$PROJECT_DIR$/day28" />
-            <option value="$PROJECT_DIR$/day29" />
-            <option value="$PROJECT_DIR$/day30" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bidirSlidingLayout" />
+            <option value="$PROJECT_DIR$/day10" />
+            <option value="$PROJECT_DIR$/day11" />
+            <option value="$PROJECT_DIR$/day12" />
+            <option value="$PROJECT_DIR$/day13" />
+            <option value="$PROJECT_DIR$/day14" />
+            <option value="$PROJECT_DIR$/day15" />
+            <option value="$PROJECT_DIR$/day16" />
+            <option value="$PROJECT_DIR$/day17" />
+            <option value="$PROJECT_DIR$/day18" />
+            <option value="$PROJECT_DIR$/day19" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/renRenSlideMenuDemo" />
+            <option value="$PROJECT_DIR$/renRenSlidingLayout" />
+            <option value="$PROJECT_DIR$/slidingLayoutDemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

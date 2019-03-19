@@ -89,25 +89,25 @@ public class SlidingMenu extends HorizontalScrollView {
         float rightScale = 0.7f + 0.3f * scale;
         // 设置右边的缩放,默认是以中心点缩放
         // 设置缩放的中心点位置
-        ViewCompat.setPivotX(mContentView,0);
-        ViewCompat.setPivotY(mContentView, mContentView.getMeasuredHeight() / 2);
-        ViewCompat.setScaleX(mContentView,rightScale);
-        ViewCompat.setScaleY(mContentView, rightScale);
-
-        // 菜单的缩放和透明度
-        // 透明度是 半透明到完全透明  0.5f - 1.0f
-        float leftAlpha = 0.5f + (1-scale)*0.5f;
-        ViewCompat.setAlpha(mMenuView,leftAlpha);
-        // 缩放 0.7f - 1.0f
-        float leftScale = 0.7f + (1-scale)*0.3f;
-        ViewCompat.setScaleX(mMenuView,leftScale);
-        ViewCompat.setScaleY(mMenuView, leftScale);
+//        ViewCompat.setPivotX(mContentView,0);
+//        ViewCompat.setPivotY(mContentView, mContentView.getMeasuredHeight() / 2);
+//        ViewCompat.setScaleX(mContentView,rightScale);
+//        ViewCompat.setScaleY(mContentView, rightScale);
+//
+//        // 菜单的缩放和透明度
+//        // 透明度是 半透明到完全透明  0.5f - 1.0f
+//        float leftAlpha = 0.5f + (1-scale)*0.5f;
+//        ViewCompat.setAlpha(mMenuView,leftAlpha);
+//        // 缩放 0.7f - 1.0f
+//        float leftScale = 0.7f + (1-scale)*0.3f;
+//        ViewCompat.setScaleX(mMenuView,leftScale);
+//        ViewCompat.setScaleY(mMenuView, leftScale);
 
         // 最后一个效果 退出这个按钮刚开始是在右边，安装我们目前的方式永远都是在左边
         // 设置平移，先看一个抽屉效果
         // ViewCompat.setTranslationX(mMenuView,l);
         // 平移 l*0.7f
-      ViewCompat.setTranslationX(mMenuView, 0.25f*l);
+      ViewCompat.setTranslationX(mMenuView, 1);
     }
 
     @Override
@@ -137,7 +137,7 @@ public class SlidingMenu extends HorizontalScrollView {
                 openMenu();
             }
             // 确保 super.onTouchEvent() 不会执行
-            return true;
+           return true;
         }
         return super.onTouchEvent(ev);
     }

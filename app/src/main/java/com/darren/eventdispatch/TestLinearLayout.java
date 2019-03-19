@@ -14,10 +14,10 @@ public class TestLinearLayout extends LinearLayout {
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
         Log.e("TAG", "TestLinearLayout onInterceptTouchEvent-- action=" + ev.getAction());
-        if(ev.getAction()==MotionEvent.ACTION_DOWN){
-            return  false;
-        }
-        return true;
+//        if(ev.getAction()==MotionEvent.ACTION_DOWN){
+//            return  false;
+//        }
+        return false;
     }
 
     @Override
@@ -74,6 +74,23 @@ public class TestLinearLayout extends LinearLayout {
      (1、自己消费掉，事件终结，不再传给谁----->return true;
        2、继续从下往上传，不消费事件，让父View也能收到到这个事件----->return false;View的默认实现是不消费的。所以super==false。)
      */
+    /**
+     7. 如果down事件没有控件消费，那么会回溯掉最顶层view Decorview，DecorView在
+        onTouchEvent收到down事件后，默认也是不消费的，接着就会传递up事件，因为最顶层view的mTouchTarget为null，up事件会传递Decorview的onTouchEvent,默认同样是不出来，到此事件传递结束。
+     */
+    /*
+     8. 除了down事件的其他事件，只有当前viewGroup的mTouchTarget不为null，才会调用onInterceptTouchEvent方法（即是如果onInterceptTouchEvent的down事件返回true，这回导致事件传到当前viewgroup的onTouchEvent方法，mTouchTarget为null，接着的其他事件不会走onInterceptTouchEvent方法）
+     */
+    /**
+     9.clearTouchTargets先释放当前的target到复用池，如果当前target的nextTarget不为null，则把nextTarget也释放到复用池
+     /*
+     10. onInterceptTouchEvent down返回false,move和up拦截，如果子view消费了事件，
+     mTouchTarget不为null，dispatchTransformedTouchEvent(ev, cancelChild,
+     target.child, target.pointerIdBits)) 会给消费该事件的子view传递一个action_cancel事件，之后的事件就不会再传给该子view。
+     */
+    /*
+     11.如果View不消耗除ACTION_DOWN以外的其它事件，那么这个点击事件不会消失，此时父元素的onTouchEvent()并不会调用，并且当前View可以持续收到后续的事件，最终这些消失的点击事件会传递给Activity处理。(父容器不拦截的话,不会发出cancel事件，mTouchTarget不会置为null，接下来的触摸事件还会传到子view)
+   * */
 
 /*     if (dispatchTransformedTouchEvent(ev, false, child, idBitsToAssign)) {
 		// Child wants to receive touch within its bounds.
@@ -110,7 +127,7 @@ public class TestLinearLayout extends LinearLayout {
 		// No touch targets so treat this as an ordinary view.
 		handled = dispatchTransformedTouchEvent(ev, canceled, null,
 				TouchTarget.ALL_POINTER_IDS);
-	} else {
+	} else {  //如果子控件消费了down事件，move或者up事件没有消费，会走到这里，alreadyDispatchedToNewTouchTarget为false，走到else里，子控件会受到cancel事件，该viewgroup的onTouchEvent不会走
 		// Dispatch to touch targets, excluding the new touch target if we already
 		// dispatched to it.  Cancel touch targets if necessary.
 		TouchTarget predecessor = null;

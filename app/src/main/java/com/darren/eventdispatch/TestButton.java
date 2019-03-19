@@ -14,7 +14,7 @@ public class TestButton extends android.support.v7.widget.AppCompatButton {
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
         Log.e("TAG", "TestButton dispatchTouchEvent-- action=" + event.getAction());
-        getParent().requestDisallowInterceptTouchEvent(true);
+//        getParent().requestDisallowInterceptTouchEvent(true);
         boolean dispatchTouchEvent = super.dispatchTouchEvent(event);
 //        Log.e("TAG", "TestButton dispatchTouchEvent-- return =" + dispatchTouchEvent);
         return dispatchTouchEvent;
@@ -26,4 +26,5 @@ public class TestButton extends android.support.v7.widget.AppCompatButton {
         boolean onTouchEvent = super.onTouchEvent(event);
         return  onTouchEvent;
     }
+
 }

@@ -148,14 +148,14 @@ public class VerticalDragListView extends FrameLayout {
     // ecause ACTION_DOWN was not received for this pointer before ACTION_MOVE
     // VDLV.onInterceptTouchEvent().DOWN -> LV.onTouch() ->
     // VDLV.onInterceptTouchEvent().MOVE -> VDLV.onTouchEvent().MOVE
-
+    private static final String TAG = "VerticalDragListView";
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
         // 菜单打开要拦截
         if (mMenuIsOpen) {
             return true;
         }
-
+        Log.e(TAG, "onInterceptTouchEvent: "+ev.getAction());
         // 向下滑动拦截，不要给ListView做处理
         // 谁拦截谁 父View拦截子View ，但是子 View 可以调这个方法
         // requestDisallowInterceptTouchEvent 请求父View不要拦截，改变的其实就是 mGroupFlags 的值

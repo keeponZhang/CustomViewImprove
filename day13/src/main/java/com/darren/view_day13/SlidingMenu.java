@@ -188,13 +188,18 @@ public class SlidingMenu extends HorizontalScrollView {
                 return true;
             }
         }
-        return super.onInterceptTouchEvent(ev);
+
+        boolean b = super.onInterceptTouchEvent(ev);
+        Log.e(TAG, "onInterceptTouchEvent: "+ev.getAction()+" return:"+b );
+        return b;
     }
 
+    private static final String TAG = "SlidingMenu";
     // 3.手指抬起是二选一，要么关闭要么打开
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
         // 如果有拦截不要执行自己的 onTouch
+        Log.e(TAG, "onTouchEvent: "+ev.getAction() );
         if (mIsIntercept) {
             return true;
         }
