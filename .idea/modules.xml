@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomViewImprove.iml" filepath="$PROJECT_DIR$/CustomViewImprove.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bidirSlidingLayout/bidirSlidingLayout.iml" filepath="$PROJECT_DIR$/bidirSlidingLayout/bidirSlidingLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/day10/day10.iml" filepath="$PROJECT_DIR$/day10/day10.iml" />
       <module fileurl="file://$PROJECT_DIR$/day11/day11.iml" filepath="$PROJECT_DIR$/day11/day11.iml" />
       <module fileurl="file://$PROJECT_DIR$/day12/day12.iml" filepath="$PROJECT_DIR$/day12/day12.iml" />
@@ -16,9 +15,6 @@
       <module fileurl="file://$PROJECT_DIR$/day18/day18.iml" filepath="$PROJECT_DIR$/day18/day18.iml" />
       <module fileurl="file://$PROJECT_DIR$/day19/day19.iml" filepath="$PROJECT_DIR$/day19/day19.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/renRenSlideMenuDemo/renRenSlideMenuDemo.iml" filepath="$PROJECT_DIR$/renRenSlideMenuDemo/renRenSlideMenuDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/renRenSlidingLayout/renRenSlidingLayout.iml" filepath="$PROJECT_DIR$/renRenSlidingLayout/renRenSlidingLayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/slidingLayoutDemo/slidingLayoutDemo.iml" filepath="$PROJECT_DIR$/slidingLayoutDemo/slidingLayoutDemo.iml" />
     </modules>
   </component>
 </project>
