@@ -6,6 +6,7 @@
               android:tag="TestLinearLayout"
               android:id="@+id/mylayout">
 	<com.darren.eventdispatch.TestButton
+		android:enabled="false"
 		android:id="@+id/my_btn"
 		android:tag="TestButton"
 		android:layout_width="match_parent"

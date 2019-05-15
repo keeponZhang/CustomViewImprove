@@ -15,9 +15,16 @@ public class MyView extends View {
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
         Log.e("TAG", "MyView dispatchTouchEvent-- action=" + event.getAction());
-        boolean dispatchTouchEvent = super.dispatchTouchEvent(event);
+//        boolean dispatchTouchEvent = super.dispatchTouchEvent(event);
 //        Log.e("TAG", "TestButton dispatchTouchEvent-- return =" + dispatchTouchEvent);
-        return dispatchTouchEvent;
+//        return dispatchTouchEvent;
+        if(event.getAction()==MotionEvent.ACTION_DOWN){
+                        getParent().requestDisallowInterceptTouchEvent(true);
+            return true;
+        }else{
+            return false;
+        }
+
     }
 
     @Override

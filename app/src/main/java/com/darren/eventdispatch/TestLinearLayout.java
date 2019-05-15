@@ -34,6 +34,8 @@ public class TestLinearLayout extends LinearLayout {
     }
 
 
+//   0. 某个View 一旦决定拦截，那么这 一个事件序列都只能由它来处理〈如果事件序列能够传递给它的话），
+    // 并且它的onInterceptTouchEvent不会再被调用（因为此时拦截了down事件，mFirstTarget为null）
 	/*dispatchTransformedTouchEvent 会递归调用，调用者必须是ViewGroup
 	如果child不为null，则会调用该child的dispatchTouchEvent，一直递归下去
 	假如现在是分发到了触摸到的最里层view的父亲viewGroup中，分两种情况
@@ -80,8 +82,9 @@ public class TestLinearLayout extends LinearLayout {
         onTouchEvent收到down事件后，默认也是不消费的，接着就会传递up事件，因为最顶层view的mTouchTarget为null，up事件会传递Decorview的onTouchEvent,默认同样是不出来，到此事件传递结束。
      */
     /*
-     8. 除了down事件的其他事件，只有当前viewGroup的mTouchTarget不为null，才会调用onInterceptTouchEvent方法（即是如果onInterceptTouchEvent的down事件返回true，这回导致事件传到当前viewgroup的onTouchEvent方法，mTouchTarget为null，接着的其他事件不会走onInterceptTouchEvent方法）
-      *(即是才会调用onInterceptTouchEvent方法走的两个条件，down事件或者mFirstTouchTarget != null，即actionMasked == MotionEvent.ACTION_DOWN || mFirstTouchTarget != null）
+     8. 除了down事件的其他事件，只有当前viewGroup的mTouchTarget不为null，并且子view没有在down事件调用getParent().requestDisallowInterceptTouchEvent(true)，才会调用onInterceptTouchEvent方法（即是如果onInterceptTouchEvent的down事件返回true，这回导致事件传到当前viewgroup的onTouchEvent方法，mTouchTarget为null，接着的其他事件不会走onInterceptTouchEvent方法）
+      *(即是才会调用onInterceptTouchEvent方法走的3个条件，down事件或者mFirstTouchTarget != null，即actionMasked == MotionEvent.ACTION_DOWN || mFirstTouchTarget != null,还有一种就是  子view没有在down事件中调用 getParent().requestDisallowInterceptTouchEvent(true);
+）
 
      */
     /**

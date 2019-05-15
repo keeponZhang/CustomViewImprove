@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.darren.view_day01.R;
 
@@ -35,17 +36,17 @@ public class ListenerActivity extends Activity implements View.OnTouchListener, 
         decorView.setTag("DevorView");
 
         content.setOnTouchListener(this);
-        mLayout.setOnTouchListener(this);
-        mTextView.setOnTouchListener(this);
-        mMyView.setOnTouchListener(this);
-        mButton.setOnTouchListener(this);
+//        mLayout.setOnTouchListener(this);
+//        mTextView.setOnTouchListener(this);
+//        mMyView.setOnTouchListener(this);
+//        mButton.setOnTouchListener(this);
 
-        mButton.getParent().requestDisallowInterceptTouchEvent(false);
+//        mButton.getParent().requestDisallowInterceptTouchEvent(false);
         getWindow().getDecorView().setOnTouchListener(this);
 //        mButton.setOnTouchListener(this);
 
 //        mLayout.setOnClickListener(this);
-//        mButton.setOnClickListener(this);
+       mButton.setOnClickListener(this);
     }
 
     private static final String TAG = "ListenerActivity";
@@ -62,7 +63,7 @@ public class ListenerActivity extends Activity implements View.OnTouchListener, 
     @Override
     public void onClick(View v) {
         Log.e("TAG", v.getTag()+"  OnClickListener--onClick--");
-
+        Toast.makeText(this,"click",Toast.LENGTH_LONG).show();
     }
 
 
