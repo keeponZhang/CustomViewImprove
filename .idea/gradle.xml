@@ -9,17 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/day10" />
-            <option value="$PROJECT_DIR$/day11" />
-            <option value="$PROJECT_DIR$/day12" />
-            <option value="$PROJECT_DIR$/day13" />
-            <option value="$PROJECT_DIR$/day14" />
-            <option value="$PROJECT_DIR$/day15" />
-            <option value="$PROJECT_DIR$/day16" />
-            <option value="$PROJECT_DIR$/day17" />
-            <option value="$PROJECT_DIR$/day18" />
-            <option value="$PROJECT_DIR$/day19" />
-            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/bidirSlidingLayout" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

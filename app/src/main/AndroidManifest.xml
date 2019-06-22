@@ -11,27 +11,17 @@
 		android:supportsRtl="true"
 		android:theme="@style/AppTheme">
 		<activity android:name=".MainActivity">
-
 		</activity>
-		<activity android:name="com.darren.eventdispatch.ListenerActivity">
 
-			 <intent-filter>
-			 <action android:name="android.intent.action.MAIN" />
-
-
-			 <category android:name="android.intent.category.LAUNCHER" />
-			 </intent-filter>
-		</activity>
 		<activity android:name="com.darren.scrolltest.ScorllActivity">
 		</activity>
 		<activity android:name="com.darren.retrofit.RetrofitActivity">
 		</activity>
 		<activity android:name="com.darren.dialog.DialogActivity">
-			<!--<intent-filter>-->
-				<!--<action android:name="android.intent.action.MAIN"/>-->
-
-				<!--<category android:name="android.intent.category.LAUNCHER"/>-->
-			<!--</intent-filter>-->
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
 		</activity>
 	</application>
 
