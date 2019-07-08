@@ -28,11 +28,11 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile "com.android.support:appcompat-v7:${rootProject.ext.SUPPORT_LIBRARY_VERSION}"
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.squareup.retrofit2:retrofit:2.3.0'
-    compile 'com.squareup.retrofit2:converter-gson:+'
-    compile 'com.squareup.okhttp3:logging-interceptor:+'
-    compile 'com.squareup.retrofit2:adapter-rxjava:+'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:+'
+    implementation 'com.squareup.okhttp3:logging-interceptor:+'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:+'
 }
 repositories {
     mavenCentral()
