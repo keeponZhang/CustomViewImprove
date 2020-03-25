@@ -8,11 +8,20 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/112customViewDemo" />
+            <option value="$PROJECT_DIR$/12customViewDemo" />
+            <option value="$PROJECT_DIR$/13customViewDemo" />
+            <option value="$PROJECT_DIR$/14customViewDemo" />
+            <option value="$PROJECT_DIR$/16customViewDemo" />
+            <option value="$PROJECT_DIR$/23customViewDemo" />
+            <option value="$PROJECT_DIR$/512customViewDemo" />
+            <option value="$PROJECT_DIR$/712customViewDemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bidirSlidingLayout" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>

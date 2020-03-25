@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/112customViewDemo/112customViewDemo.iml" filepath="$PROJECT_DIR$/112customViewDemo/112customViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12customViewDemo/12customViewDemo.iml" filepath="$PROJECT_DIR$/12customViewDemo/12customViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13customViewDemo/13customViewDemo.iml" filepath="$PROJECT_DIR$/13customViewDemo/13customViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14customViewDemo/14customViewDemo.iml" filepath="$PROJECT_DIR$/14customViewDemo/14customViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16customViewDemo/16customViewDemo.iml" filepath="$PROJECT_DIR$/16customViewDemo/16customViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23customViewDemo/23customViewDemo.iml" filepath="$PROJECT_DIR$/23customViewDemo/23customViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/512customViewDemo/512customViewDemo.iml" filepath="$PROJECT_DIR$/512customViewDemo/512customViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/712customViewDemo/712customViewDemo.iml" filepath="$PROJECT_DIR$/712customViewDemo/712customViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomViewImprove.iml" filepath="$PROJECT_DIR$/CustomViewImprove.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/bidirSlidingLayout/bidirSlidingLayout.iml" filepath="$PROJECT_DIR$/bidirSlidingLayout/bidirSlidingLayout.iml" />

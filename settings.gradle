@@ -10,4 +10,11 @@ include ':bidirSlidingLayout'
 //include ':slidingLayoutDemo'
 
 
-
+include ':12customViewDemo'
+include ':13customViewDemo'
+include ':14customViewDemo'
+include ':16customViewDemo'
+include ':23customViewDemo'
+include ':112customViewDemo'
+include ':512customViewDemo'
+include ':712customViewDemo'

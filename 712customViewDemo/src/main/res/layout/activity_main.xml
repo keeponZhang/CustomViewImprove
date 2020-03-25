@@ -1,0 +1,35 @@
+<com.aigestudio.customviewdemo.views.CustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF597210"
+    android:orientation="vertical" >
+
+    <com.aigestudio.customviewdemo.views.IconView
+        android:id="@+id/main_pv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:text="AigeStudio" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="14dp"
+        android:background="#FF166792"
+        android:text="AigeStudio" />
+
+</com.aigestudio.customviewdemo.views.CustomLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SquareLayout">
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="my_gravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="center" value="2" />
+            <enum name="top" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+    </declare-styleable>
+    <!-- http://blog.csdn.net/aigestudio -->
+    <declare-styleable name="AttrView">
+        <!-- 引用资源 -->
+        <attr name="image" format="reference" />
+        <!-- 颜色 -->
+        <attr name="text_color" format="color" />
+        <!-- 布尔值 -->
+        <attr name="text_display" format="boolean" />
+        <!-- 尺寸大小 -->
+        <attr name="temp1" format="dimension" />
+        <!-- 浮点值 -->
+        <attr name="temp2" format="float" />
+        <!-- 整型值 -->
+        <attr name="temp3" format="integer" />
+        <!-- 字符串 -->
+        <attr name="text" format="string" />
+        <!-- 百分比 -->
+        <attr name="alpha" format="fraction" />
+        <!-- 枚举 -->
+        <attr name="text_align" format="integer">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+        <!-- 位运算 -->
+        <attr name="text_optimize" format="integer">
+            <flag name="anti" value="0x001" />
+            <flag name="dither" value="0x002" />
+            <flag name="linear" value="0x004" />
+        </attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.aigestudio.customviewdemo.views.MultiCricleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />    <!--
+    <com.aigestudio.customviewdemo.views.MatrixImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix" />    -->
+ <!--
+    <com.aigestudio.customviewdemo.views.AnimListView
+        android:id="@+id/main_alv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" />
+-->
+</LinearLayout>

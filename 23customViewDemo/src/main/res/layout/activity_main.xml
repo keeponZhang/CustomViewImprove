@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <com.aigestudio.customviewdemo.views.SquareLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#679135"
+        android:paddingBottom="20dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="7dp"
+        android:paddingTop="12dp" >
+
+        <Button
+            xmlns:aigestudio="http://schemas.android.com/apk/res/com.aigestudio.customviewdemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#125793"
+            android:text="tomorrow"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            aigestudio:my_gravity="left"
+            aigestudio:alpha="left"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:background="#495287"
+            android:text="AigeStudio" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="#976234" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lovestory_little" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#594342"
+            android:text="AigeStudio" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#961315"
+            android:text="Welcome AigeStudio" />
+    </com.aigestudio.customviewdemo.views.SquareLayout>
+
+</LinearLayout>
