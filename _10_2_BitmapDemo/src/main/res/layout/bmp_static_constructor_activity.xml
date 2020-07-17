@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Button
+            android:id="@+id/bitmap_blank_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="7.5.4.1  生成白色透明渐变图像"/>
+
+    <Button
+            android:id="@+id/bitmap_crop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="7.5.4.3 裁剪图像"/>
+
+
+    <Button
+            android:id="@+id/bitmap_crop_matrix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="7.5.4.4 裁剪图像并用Matrix"/>
+
+
+    <Button
+            android:id="@+id/bitmap_colors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="7.5.4.5 createBmp_Colors"/>
+
+
+    <Button
+            android:id="@+id/bitmap_scaled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.5.4.6 createScaledBmp"/>
+
+
+
+
+
+    <!--<Button-->
+            <!--android:id="@+id/in_scaled_btn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="7.5.3.4 inScaled"/>-->
+
+    <!--<Button-->
+            <!--android:id="@+id/in_preferred_config_btn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="7.5.3.5 PreferredConfig"/>-->
+
+    <ImageView
+            android:id="@+id/bmp_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"/>
+
+    <ImageView
+            android:id="@+id/bmp_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"/>
+
+
+</LinearLayout>
+

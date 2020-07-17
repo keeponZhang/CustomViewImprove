@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <Button
+            android:id="@+id/custom_interplolater"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="3.2.1.2 自定义插值器"
+            />
+
+    <Button
+            android:id="@+id/custom_evaluator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="3.2.2.4 自定义Evaluator实现倒序输出"
+            />
+
+    <Button
+            android:id="@+id/argb_evaluator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="3.2.2.5 关于ArgbEvalutor"
+            />
+
+    <Button
+            android:id="@+id/character_evaluator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="3.3.1 CharacterEvaluator"
+            />
+    <Button
+            android:id="@+id/falling_ball_demo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="3.3.2 FallingBallDemo"
+            />
+</LinearLayout>
+

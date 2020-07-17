@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.harvic.SurfaceViewDemo"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="15"/>
+    <application
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher">
+        <activity
+                android:name="MyActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".SurfacePathActivity"/>
+        <activity android:name=".ViewPathActivity"/>
+        <activity android:name=".AnimationBGActivity"/>
+        <activity android:name=".DoubleBufferTextActivity"/>
+        <activity android:name=".Resolve_1_Activity"/>
+        <activity android:name=".Resolve_2_Activity"/>
+        <activity android:name=".RectRefreshSurfaceActivity"/>
+        <activity android:name=".RectRefreshViewActivity"/>
+    </application>
+</manifest>

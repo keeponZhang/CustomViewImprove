@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.harvic.Bitmap"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-sdk android:minSdkVersion="14"/>
+    <application
+        android:theme="@android:style/Theme.Light"
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher">
+        <activity
+                android:name="MyActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".decodeByteArrayActivity"/>
+        <activity android:name=".decodeStreamActivity"/>
+        <activity android:name=".BitmapFactoryOptionsActivity"/>
+        <activity android:name=".BitmapStaticConstructorActivity"/>
+        <activity android:name=".BmpBlankGradientActivity"/>
+        <activity android:name=".ExtraAlphaActivity"/>
+        <activity android:name=".BitmapDensityActivity"/>
+        <activity android:name=".BitmapPixelActivity"/>
+        <activity android:name=".BitmapCompressActivity"/>
+        <activity android:name=".WaterMarkActivity"/>
+    </application>
+</manifest>

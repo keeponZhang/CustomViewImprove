@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Button
+            android:id="@+id/btn_shape_instance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="7.3.1.2获取Shape标签实例"
+            />
+
+    <Button
+            android:id="@+id/btn_shape_construct"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="7.3.2.1ShapeDrawable构造函数"
+            />
+
+    <Button
+            android:id="@+id/btn_shape_shader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="7.3.3.2 getPaint().setShader示例"
+            />
+    <Button
+            android:id="@+id/btn_shape_telescope"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="7.3.3.2 放大镜效果"
+            />
+    <Button
+            android:id="@+id/btn_custom_drawable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="7.3.4.2 实现圆角Drawable"/>
+    <Button
+            android:id="@+id/btn_background_drawable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="7.3.4.2 使用setBackgroundDrawable"/>
+</LinearLayout>
+

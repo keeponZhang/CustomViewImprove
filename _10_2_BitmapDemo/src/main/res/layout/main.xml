@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent">
+
+        <Button
+                android:id="@+id/decode_byte_array_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.5.2.3  decodeByteArray示例"
+                />
+
+        <Button
+                android:id="@+id/decode_stream_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.5.2.5 decodeStream示例"
+                />
+
+        <Button
+                android:id="@+id/bitmap_factory_option_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.5.3 BitmapFactory.Options"
+                />
+
+        <Button
+                android:id="@+id/bitmap_static_constructor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.5.4 Bitmap静态创建"/>
+
+        <Button
+                android:id="@+id/bitmap_extract_alpha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.5.5.2 extractAlpha"/>
+
+        <Button
+                android:id="@+id/bitmap_density"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.5.5.5 bitmap density"/>
+
+        <Button
+                android:id="@+id/bitmap_pixel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.5.5.6 setPixel、getPixel"/>
+
+        <Button
+                android:id="@+id/bitmap_compress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.5.5.7 compress"/>
+        <Button
+                android:id="@+id/bitmap_watermark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.5.6.3 生成水印"/>
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.harvic.PaintBasis"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="15"/>
+    <application
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher">
+        <activity
+                android:name="MyActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Summarize_1_1_1_Activity"/>
+        <activity android:name=".Summarize_1_1_3_Activity"/>
+        <activity android:name=".RectPontView_1_1_4_Activity"/>
+        <activity android:name=".intersect_1_1_4_Activity"/>
+        <activity android:name=".PathView_1_2_Activity"/>
+        <activity android:name=".SpiderActivity"/>
+    </application>
+</manifest>

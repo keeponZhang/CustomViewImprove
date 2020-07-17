@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/canvas_operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.5.1 Canvas变换"/>
+
+    <Button
+        android:id="@+id/canvas_circle_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.5.3.1 示例一：圆形头像"/>
+
+    <Button
+        android:id="@+id/clip_rgn_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.5.3.1 示例二：裁剪动画"/>
+
+    <Button
+        android:id="@+id/custom_view_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.6.2 XML中添加控件"/>
+
+
+</LinearLayout>
+

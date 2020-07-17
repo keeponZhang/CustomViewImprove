@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TableLayout
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                    android:id="@+id/start_alpha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="alpha"/>
+
+            <Button
+                    android:id="@+id/start_rotation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="rotation"/>
+
+            <Button
+                    android:id="@+id/start_rotationX"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="rotationX"/>
+
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <Button
+                    android:id="@+id/start_rotationY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="rotationY"/>
+
+            <Button
+                    android:id="@+id/start_translationX"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="translationX"/>
+
+            <Button
+                    android:id="@+id/start_translationY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="translationY"/>
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                    android:id="@+id/start_scaleX"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="scaleX"/>
+
+            <Button
+                    android:id="@+id/start_scaleY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="scaleY"/>
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+            android:visibility="gone"
+            android:id="@+id/tv"
+            android:layout_marginLeft="30dp"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:text="启舰"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:background="#000000"
+            android:textColor="#ffffff"/>
+
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <Button
+                android:id="@+id/demobtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="start anim"/>
+
+        <com.harvic.ObjectAnimator.CustomTextView
+                android:id="@+id/customtv"
+                android:layout_toRightOf="@id/demobtn"
+                android:layout_marginLeft="30dp"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="启舰"
+                android:background="#000000"
+                android:textColor="#ffffff"/>
+
+
+            </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.harvic.ShapeDrawable_7_3"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="15"/>
+    <application
+        android:theme="@android:style/Theme.Light"
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher">
+        <activity
+                android:name="MyActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ShapeInstanceActivity"/>
+        <activity android:name=".ShapeConstructorActivity"/>
+        <activity android:name=".ShaderDemoActivity"/>
+        <activity android:name=".TelescopeActivity"/>
+        <activity android:name=".ImgDrawableActivity"/>
+        <activity android:name=".BackgroundDrawableActivity"/>
+    </application>
+</manifest>

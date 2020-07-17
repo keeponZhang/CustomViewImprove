@@ -22,9 +22,30 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CustomViewImprove-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CustomViewImprove-app.iml" group="CustomViewImprove/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bidirSlidingLayout/CustomViewImprove-bidirSlidingLayout.iml" filepath="$PROJECT_DIR$/.idea/modules/bidirSlidingLayout/CustomViewImprove-bidirSlidingLayout.iml" group="CustomViewImprove/bidirSlidingLayout" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LetterFilterListView/LetterFilterListView.iml" filepath="$PROJECT_DIR$/.idea/modules/LetterFilterListView/LetterFilterListView.iml" group="CustomViewImprove/LetterFilterListView" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/_10_1_ShapeDrawable/_10_1_ShapeDrawable.iml" filepath="$PROJECT_DIR$/.idea/modules/_10_1_ShapeDrawable/_10_1_ShapeDrawable.iml" group="CustomViewImprove/_10_1_ShapeDrawable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/_10_2_BitmapDemo/_10_2_BitmapDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/_10_2_BitmapDemo/_10_2_BitmapDemo.iml" group="CustomViewImprove/_10_2_BitmapDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/_10_3_SurfaceViewDemo/_10_3_SurfaceViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/_10_3_SurfaceViewDemo/_10_3_SurfaceViewDemo.iml" group="CustomViewImprove/_10_3_SurfaceViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/animDemo/animDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/animDemo/animDemo.iml" group="CustomViewImprove/animDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/animatorSet/animatorSet.iml" filepath="$PROJECT_DIR$/.idea/modules/animatorSet/animatorSet.iml" group="CustomViewImprove/animatorSet" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/bidirSlidingLayout/bidirSlidingLayout.iml" filepath="$PROJECT_DIR$/bidirSlidingLayout/bidirSlidingLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/blogColorMatrix/blogColorMatrix.iml" filepath="$PROJECT_DIR$/.idea/modules/blogColorMatrix/blogColorMatrix.iml" group="CustomViewImprove/blogColorMatrix" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/blogProgressMetrics/blogProgressMetrics.iml" filepath="$PROJECT_DIR$/.idea/modules/blogProgressMetrics/blogProgressMetrics.iml" group="CustomViewImprove/blogProgressMetrics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/canvasOperation/canvasOperation.iml" filepath="$PROJECT_DIR$/.idea/modules/canvasOperation/canvasOperation.iml" group="CustomViewImprove/canvasOperation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flowLayoutSimple/flowLayoutSimple.iml" filepath="$PROJECT_DIR$/.idea/modules/flowLayoutSimple/flowLayoutSimple.iml" group="CustomViewImprove/flowLayoutSimple" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/frameAnim/frameAnim.iml" filepath="$PROJECT_DIR$/.idea/modules/frameAnim/frameAnim.iml" group="CustomViewImprove/frameAnim" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/interploatorEvaluator/interploatorEvaluator.iml" filepath="$PROJECT_DIR$/.idea/modules/interploatorEvaluator/interploatorEvaluator.iml" group="CustomViewImprove/interploatorEvaluator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/interpolater/interpolater.iml" filepath="$PROJECT_DIR$/.idea/modules/interpolater/interpolater.iml" group="CustomViewImprove/interpolater" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/keepon-CustomViewImprove.iml" filepath="$PROJECT_DIR$/.idea/modules/keepon-CustomViewImprove.iml" group="CustomViewImprove" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/objectAnimator/objectAnimator.iml" filepath="$PROJECT_DIR$/.idea/modules/objectAnimator/objectAnimator.iml" group="CustomViewImprove/objectAnimator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paintBasis/paintBasis.iml" filepath="$PROJECT_DIR$/.idea/modules/paintBasis/paintBasis.iml" group="CustomViewImprove/paintBasis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/regionBasis/regionBasis.iml" filepath="$PROJECT_DIR$/.idea/modules/regionBasis/regionBasis.iml" group="CustomViewImprove/regionBasis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simpleLayout/simpleLayout.iml" filepath="$PROJECT_DIR$/.idea/modules/simpleLayout/simpleLayout.iml" group="CustomViewImprove/simpleLayout" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simpleLayoutAdvance/simpleLayoutAdvance.iml" filepath="$PROJECT_DIR$/.idea/modules/simpleLayoutAdvance/simpleLayoutAdvance.iml" group="CustomViewImprove/simpleLayoutAdvance" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/textBasis/textBasis.iml" filepath="$PROJECT_DIR$/.idea/modules/textBasis/textBasis.iml" group="CustomViewImprove/textBasis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/valueAnimator/valueAnimator.iml" filepath="$PROJECT_DIR$/.idea/modules/valueAnimator/valueAnimator.iml" group="CustomViewImprove/valueAnimator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewAnimation/viewAnimation.iml" filepath="$PROJECT_DIR$/.idea/modules/viewAnimation/viewAnimation.iml" group="CustomViewImprove/viewAnimation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xmlAnimator/xmlAnimator.iml" filepath="$PROJECT_DIR$/.idea/modules/xmlAnimator/xmlAnimator.iml" group="CustomViewImprove/xmlAnimator" />
     </modules>
   </component>
 </project>

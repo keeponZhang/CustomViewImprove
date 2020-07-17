@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <Button
+            android:id="@+id/view_path_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.6.2.1 实现View功能"/>
+
+    <Button
+            android:id="@+id/surface_path_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.6.2.2 使用缓冲Canvas绘图"/>
+
+    <Button
+            android:id="@+id/animation_bg_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.6.2.3 动态背景效果"/>
+
+    <Button
+            android:id="@+id/double_buffer_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.6.3.1 双缓冲技术概述"/>
+
+    <Button
+            android:id="@+id/rectrefresh_sufaceview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.6.3.2 双缓冲技术局部更新原理派生自SurfaceView"/>
+
+    <Button
+            android:id="@+id/rectrefresh_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.6.3.2 双缓冲技术局部更新原理派生自View"/>
+
+    <Button
+            android:id="@+id/resolve_text_1_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.6.3.4 双缓冲技术解决方案之一"/>
+
+    <Button
+            android:id="@+id/resolve_text_2_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.6.3.4 双缓冲技术解决方案之二"/>
+
+
+</LinearLayout>
+

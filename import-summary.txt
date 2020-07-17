@@ -7,30 +7,46 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-* ic_launcher-web.png
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* SimpleLayout.iml
+* ant.properties
+* build.xml
+* out\
+* out\production\
+* out\production\SimpleLayout\
+* out\production\SimpleLayout\SimpleLayout.apk
+* out\production\SimpleLayout\SimpleLayout.unaligned.apk
+* out\production\SimpleLayout\com\
+* out\production\SimpleLayout\com\example\
+* out\production\SimpleLayout\com\example\SimpleLayout\
+* out\production\SimpleLayout\com\example\SimpleLayout\BuildConfig.class
+* out\production\SimpleLayout\com\example\SimpleLayout\MainActivity.class
+* out\production\SimpleLayout\com\example\SimpleLayout\MyLinLayout.class
+* out\production\SimpleLayout\com\example\SimpleLayout\R$attr.class
+* out\production\SimpleLayout\com\example\SimpleLayout\R$drawable.class
+* out\production\SimpleLayout\com\example\SimpleLayout\R$layout.class
+* out\production\SimpleLayout\com\example\SimpleLayout\R$string.class
+* out\production\SimpleLayout\com\example\SimpleLayout\R.class
 * proguard-project.txt
-
-Replaced Jars with Dependencies:
---------------------------------
-The importer recognized the following .jar files as third party
-libraries and replaced them with Gradle dependencies instead. This has
-the advantage that more explicit version information is known, and the
-libraries can be updated automatically. However, it is possible that
-the .jar file in your project was of an older version than the
-dependency we picked, which could render the project not compileable.
-You can disable the jar replacement in the import wizard and try again:
-
-android-support-v4.jar => com.android.support:support-v4:19.1.0
 
 Moved Files:
 ------------
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => 712customViewDemo\src\main\AndroidManifest.xml
-* assets\ => 712customViewDemo\src\main\assets
-* res\ => 712customViewDemo\src\main\res\
-* src\ => 712customViewDemo\src\main\java\
+* AndroidManifest.xml => simpleLayoutAdvance\src\main\AndroidManifest.xml
+* assets\ => simpleLayoutAdvance\src\main\assets
+* res\ => simpleLayoutAdvance\src\main\res\
+* src\ => simpleLayoutAdvance\src\main\java\
 
 Next Steps:
 -----------

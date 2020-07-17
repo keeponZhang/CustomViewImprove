@@ -19,8 +19,29 @@
             <option value="$PROJECT_DIR$/512customViewDemo" />
             <option value="$PROJECT_DIR$/712customViewDemo" />
             <option value="$PROJECT_DIR$/LetterFilterListView" />
+            <option value="$PROJECT_DIR$/_10_1_ShapeDrawable" />
+            <option value="$PROJECT_DIR$/_10_2_BitmapDemo" />
+            <option value="$PROJECT_DIR$/_10_3_SurfaceViewDemo" />
+            <option value="$PROJECT_DIR$/animDemo" />
+            <option value="$PROJECT_DIR$/animatorSet" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bidirSlidingLayout" />
+            <option value="$PROJECT_DIR$/blogColorMatrix" />
+            <option value="$PROJECT_DIR$/blogProgressMetrics" />
+            <option value="$PROJECT_DIR$/canvasOperation" />
+            <option value="$PROJECT_DIR$/flowLayoutSimple" />
+            <option value="$PROJECT_DIR$/frameAnim" />
+            <option value="$PROJECT_DIR$/interploatorEvaluator" />
+            <option value="$PROJECT_DIR$/interpolater" />
+            <option value="$PROJECT_DIR$/objectAnimator" />
+            <option value="$PROJECT_DIR$/paintBasis" />
+            <option value="$PROJECT_DIR$/regionBasis" />
+            <option value="$PROJECT_DIR$/simpleLayout" />
+            <option value="$PROJECT_DIR$/simpleLayoutAdvance" />
+            <option value="$PROJECT_DIR$/textBasis" />
+            <option value="$PROJECT_DIR$/valueAnimator" />
+            <option value="$PROJECT_DIR$/viewAnimation" />
+            <option value="$PROJECT_DIR$/xmlAnimator" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Button
+            android:id="@+id/translate_anim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="3.1.1.3 补间动画的点击区域问题"
+            />
+
+    <Button
+            android:id="@+id/value_anim_demo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="3.1.2.1 初步使用ValueAnimator"
+            />
+
+    <Button
+            android:id="@+id/value_repeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.1.3.2 常用函数之Repeat相关"/>
+
+    <Button
+            android:id="@+id/loading_demo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.1.4 示例"/>
+</LinearLayout>
