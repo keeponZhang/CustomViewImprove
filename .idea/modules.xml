@@ -11,8 +11,20 @@
       <module fileurl="file://$PROJECT_DIR$/512customViewDemo/512customViewDemo.iml" filepath="$PROJECT_DIR$/512customViewDemo/512customViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/712customViewDemo/712customViewDemo.iml" filepath="$PROJECT_DIR$/712customViewDemo/712customViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomViewImprove.iml" filepath="$PROJECT_DIR$/CustomViewImprove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/112customViewDemo/CustomViewImprove-112customViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/112customViewDemo/CustomViewImprove-112customViewDemo.iml" group="CustomViewImprove/112customViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/12customViewDemo/CustomViewImprove-12customViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/12customViewDemo/CustomViewImprove-12customViewDemo.iml" group="CustomViewImprove/12customViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/13customViewDemo/CustomViewImprove-13customViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/13customViewDemo/CustomViewImprove-13customViewDemo.iml" group="CustomViewImprove/13customViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/14customViewDemo/CustomViewImprove-14customViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/14customViewDemo/CustomViewImprove-14customViewDemo.iml" group="CustomViewImprove/14customViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/16customViewDemo/CustomViewImprove-16customViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/16customViewDemo/CustomViewImprove-16customViewDemo.iml" group="CustomViewImprove/16customViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/23customViewDemo/CustomViewImprove-23customViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/23customViewDemo/CustomViewImprove-23customViewDemo.iml" group="CustomViewImprove/23customViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/512customViewDemo/CustomViewImprove-512customViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/512customViewDemo/CustomViewImprove-512customViewDemo.iml" group="CustomViewImprove/512customViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/712customViewDemo/CustomViewImprove-712customViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/712customViewDemo/CustomViewImprove-712customViewDemo.iml" group="CustomViewImprove/712customViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CustomViewImprove-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CustomViewImprove-app.iml" group="CustomViewImprove/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bidirSlidingLayout/CustomViewImprove-bidirSlidingLayout.iml" filepath="$PROJECT_DIR$/.idea/modules/bidirSlidingLayout/CustomViewImprove-bidirSlidingLayout.iml" group="CustomViewImprove/bidirSlidingLayout" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LetterFilterListView/LetterFilterListView.iml" filepath="$PROJECT_DIR$/.idea/modules/LetterFilterListView/LetterFilterListView.iml" group="CustomViewImprove/LetterFilterListView" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/bidirSlidingLayout/bidirSlidingLayout.iml" filepath="$PROJECT_DIR$/bidirSlidingLayout/bidirSlidingLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/keepon-CustomViewImprove.iml" filepath="$PROJECT_DIR$/.idea/modules/keepon-CustomViewImprove.iml" group="CustomViewImprove" />
     </modules>
   </component>
 </project>

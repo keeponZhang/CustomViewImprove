@@ -32,7 +32,7 @@ public interface LetterSection {
 	/**
 	 * 得到字母第一次出现的位置
 	 */
-	public int letterFirstPosition(String section);
+	public int letterFirstPosition(String letter);
 
 	/**
 	 * 根据当前位置获取首字母

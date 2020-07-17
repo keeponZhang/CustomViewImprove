@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
@@ -108,7 +109,10 @@ public class LetterFilterListView extends RelativeLayout implements
 				.findViewById(R.id.select_letter_show);
 		mSortLv = (ListView) this.findViewById(R.id.sort_lv);
 	}
-
+	public  int sp2px(float spValue) {
+		final float fontScale = Resources.getSystem().getDisplayMetrics().scaledDensity;
+		return (int) (spValue * fontScale + 0.5f);
+	}
 	/**
 	 * 初始化监听
 	 */
