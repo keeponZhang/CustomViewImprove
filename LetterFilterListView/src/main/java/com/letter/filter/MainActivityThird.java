@@ -62,7 +62,7 @@ public class MainActivityThird extends Activity implements TextWatcher {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main_third);
+		setContentView(R.layout.activity_choose_occupation);
 		initView();
 		initData();
 	}

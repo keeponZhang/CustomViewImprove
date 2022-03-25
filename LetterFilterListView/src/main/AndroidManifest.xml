@@ -35,7 +35,7 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
-            android:name="com.letter.filter.MainActivityFour"
+            android:name="com.letter.filter.ChooseOccupationActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize|stateHidden" />
     </application>

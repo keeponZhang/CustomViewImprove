@@ -34,7 +34,7 @@ import com.letter.filter.util.PlaceUtil;
  * ============================================================
  * 
  */
-public class MainActivityFour extends Activity implements TextWatcher,
+public class ChooseOccupationActivity extends Activity implements TextWatcher,
 		OnFilterItemClickListener {
 	private LetterFilterListView mLetterFilterListView;
 	private EditText mFilterEt;
@@ -42,7 +42,7 @@ public class MainActivityFour extends Activity implements TextWatcher,
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main_third);
+		setContentView(R.layout.activity_choose_occupation);
 		initView();
 		initData();
 	}

@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			intent = new Intent(this, MainActivityThird.class);
 			break;
 		case R.id.fourth:
-			intent = new Intent(this, MainActivityFour.class);
+			intent = new Intent(this, ChooseOccupationActivity.class);
 			break;
 		}
 
